@@ -1,0 +1,13 @@
+.text-pink {
+    color: #ff65c5;
+}
+
+.btn-pink {
+    background: #ff65c5;
+    color: #fff;
+}
+
+.btn-pink:hover {
+    color: #fff;
+    opacity: 0.7;
+}
