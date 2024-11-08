@@ -19,3 +19,144 @@
 .border-pink {
     border-color: #ff65c5 !important;
 }
+
+.bg-father {
+    position: relative;
+}
+
+.item-bg-hero {
+ width: 400px;
+ position: absolute;
+ top: 10%;
+ right: 5%;
+}
+
+
+.title-item-bg-hero {
+position: absolute;
+ top: 10%;
+ left: 10%;
+}
+
+.title-item-bg-hero .title-bg-hero {
+
+    font-size: 92px;
+    font-weight: bold;
+
+}
+
+.title-bg-hero-02 {
+    font-weight: 400;
+    font-style: normal;
+}
+
+.item-bg-phone {
+    position: absolute;
+    top: 75%;
+    right: 5%;
+    width: 234px;   
+}
+
+
+.item-bg-hero-01 {
+    position: absolute;
+    display: flex;
+    gap: 30px;
+    top: 85%;
+    left: 10%;
+
+}
+
+.item-bg-hero-02 {
+    position: absolute;
+    top: 71%;
+    left: 10%;
+    display: flex;
+    gap: 150px;
+
+}
+
+.item-bg-hero-02-wrap {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.item-bg-hero-02__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #000;
+}
+
+
+
+.item-bg-hero-01-wrap {
+    display: inline-flex;
+    /* width: 100px; */
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+
+
+.item-bg-hero-01-wrap img {
+  display: inline;
+    width: 52px;
+    height: 52px;
+}
+
+.item-bg-hero-01__title-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.custtom {
+    position: fixed;
+    bottom: 45px;
+    /* z-index: 1; */
+    left: 100px;
+}
+
+.custtom img {
+    width: 240px;
+  
+}
+
+
+
+/* Dành cho điện thoại (màn hình nhỏ hơn hoặc bằng 600px) */
+@media screen and (max-width: 600px) {
+    .title-item-bg-hero {
+        width: 300px;
+        position: absolute;
+         top: 20%;
+         left: 50%;
+         transform: translateX(-50%);
+         /* transform: translateY(-50%); */
+        }
+    .title-item-bg-hero .title-bg-hero {
+
+        font-size: 42px;
+        font-weight: bold;
+    
+    }
+    
+    .title-bg-hero-02 {
+        font-size: 18px;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+
+}
+
+/* Dành cho máy tính bảng (màn hình từ 601px đến 1024px) */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+ 
+}
