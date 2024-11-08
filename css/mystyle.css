@@ -1,3 +1,11 @@
+.carousel-control-next-icon i, .carousel-control-prev-icon  i{
+    font-size: 24px;
+}
+
+.img-bg-hero {
+    height: calc(100vh - 53px);
+}
+
 .text-pink {
     color: #ff65c5;
 }
@@ -131,18 +139,40 @@ position: absolute;
 
 
 /* Dành cho điện thoại (màn hình nhỏ hơn hoặc bằng 600px) */
-@media screen and (max-width: 600px) {
-    .title-item-bg-hero {
+@media screen and (max-width: 600.8px) {
+     .title-item-bg-hero {
         width: 300px;
         position: absolute;
          top: 20%;
          left: 50%;
          transform: translateX(-50%);
-         /* transform: translateY(-50%); */
+      
         }
+        .title-item-bg-hero .title-bg-hero {
+
+            font-size: 64px;
+            font-weight: bold;
+        
+        }
+        
+        .title-bg-hero-02 {
+            font-size: 18px;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .item-bg-hero-02 {
+            display: none !important;
+        }
+
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+ 
     .title-item-bg-hero .title-bg-hero {
 
-        font-size: 42px;
+        font-size: 64px;
         font-weight: bold;
     
     }
@@ -153,10 +183,37 @@ position: absolute;
         font-style: normal;
     }
 
+ 
+    .item-bg-hero-01{
+        display: none!important;
+    }
+    .item-bg-hero-02 {
+        gap: 90px;
+    }
+
 
 }
 
 /* Dành cho máy tính bảng (màn hình từ 601px đến 1024px) */
-@media screen and (min-width: 601px) and (max-width: 1024px) {
- 
+@media screen and (min-width: 601px) and (max-width: 991.8px) {
+
+
+    .img-bg-hero {
+        height: 100vh;
+    }
+
+    .item-bg-hero-01 {
+        top: 82%;
+        gap: 20px;
+    }
+    
 }
+
+@media screen and (min-width: 992px) and (max-width: 1210px) {
+    .item-bg-hero-01 {
+        top: 82%;
+        gap: 20px;
+    }
+}
+
+
