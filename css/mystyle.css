@@ -1,4 +1,5 @@
-.carousel-control-next-icon i, .carousel-control-prev-icon  i{
+.carousel-control-next-icon i,
+.carousel-control-prev-icon i {
     font-size: 24px;
 }
 
@@ -33,24 +34,21 @@
 }
 
 .item-bg-hero {
- width: 400px;
- position: absolute;
- top: 10%;
- right: 5%;
+    width: 400px;
+    position: absolute;
+    top: 10%;
+    right: 5%;
 }
 
-
 .title-item-bg-hero {
-position: absolute;
- top: 10%;
- left: 10%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
 }
 
 .title-item-bg-hero .title-bg-hero {
-
     font-size: 92px;
     font-weight: bold;
-
 }
 
 .title-bg-hero-02 {
@@ -62,9 +60,8 @@ position: absolute;
     position: absolute;
     top: 75%;
     right: 5%;
-    width: 234px;   
+    width: 234px;
 }
-
 
 .item-bg-hero-01 {
     position: absolute;
@@ -72,7 +69,6 @@ position: absolute;
     gap: 30px;
     top: 85%;
     left: 10%;
-
 }
 
 .item-bg-hero-02 {
@@ -81,7 +77,6 @@ position: absolute;
     left: 10%;
     display: flex;
     gap: 150px;
-
 }
 
 .item-bg-hero-02-wrap {
@@ -101,27 +96,23 @@ position: absolute;
     color: #000;
 }
 
-
-
 .item-bg-hero-01-wrap {
     display: inline-flex;
     /* width: 100px; */
     justify-content: center;
     align-items: center;
     gap: 5px;
-
 }
 
-
 .item-bg-hero-01-wrap img {
-  display: inline;
+    display: inline;
     width: 52px;
     height: 52px;
 }
 
 .item-bg-hero-01__title-wrap {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .custtom {
@@ -133,71 +124,68 @@ position: absolute;
 
 .custtom img {
     width: 240px;
-  
 }
-
-
 
 /* Dành cho điện thoại (màn hình nhỏ hơn hoặc bằng 600px) */
 @media screen and (max-width: 600.8px) {
-     .title-item-bg-hero {
+    .title-item-bg-hero {
         width: 300px;
         position: absolute;
-         top: 20%;
-         left: 50%;
-         transform: translateX(-50%);
-      
-        }
-        .title-item-bg-hero .title-bg-hero {
-
-            font-size: 64px;
-            font-weight: bold;
-        
-        }
-        
-        .title-bg-hero-02 {
-            font-size: 18px;
-            font-weight: 400;
-            font-style: normal;
-        }
-
-        .item-bg-hero-02 {
-            display: none !important;
-        }
-
-}
-
-
-@media screen and (min-width: 601px) and (max-width: 768px) {
- 
-    .title-item-bg-hero .title-bg-hero {
-
-        font-size: 64px;
-        font-weight: bold;
-    
+        top: 10%;
+        left: 50%;
+        transform: translateX(-50%);
     }
-    
+    .title-item-bg-hero .title-bg-hero {
+        font-size: 63px;
+        font-weight: bold;
+    }
+
     .title-bg-hero-02 {
         font-size: 18px;
         font-weight: 400;
         font-style: normal;
     }
 
- 
-    .item-bg-hero-01{
-        display: none!important;
+    .item-bg-hero-02 {
+        display: none !important;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 13% !important;
+    }
+
+    .custtom img {
+        width: 200px;
+    }
+
+    .custtom {
+        left: 80px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    .title-item-bg-hero .title-bg-hero {
+        font-size: 64px;
+        font-weight: bold;
+    }
+
+    .title-bg-hero-02 {
+        font-size: 18px;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .item-bg-hero-01 {
+        display: none !important;
     }
     .item-bg-hero-02 {
         gap: 90px;
     }
-
-
 }
 
 /* Dành cho máy tính bảng (màn hình từ 601px đến 1024px) */
 @media screen and (min-width: 601px) and (max-width: 991.8px) {
-
-
     .img-bg-hero {
         height: 100vh;
     }
@@ -206,7 +194,6 @@ position: absolute;
         top: 82%;
         gap: 20px;
     }
-    
 }
 
 @media screen and (min-width: 992px) and (max-width: 1210px) {
@@ -215,5 +202,3 @@ position: absolute;
         gap: 20px;
     }
 }
-
-
